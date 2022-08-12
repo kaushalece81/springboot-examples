@@ -1,0 +1,24 @@
+Dependency devtool,config server
+
+Limits service 8080,8081,
+spring cloud config server 8888
+currency exchange service : 8000, 8001,8002
+currency conversion service :8100, 8101, 8102
+netflix eureka naming server : 8761
+api gateway :  8765
+zipkin distributed tracing server : 9411
+
+
+install git in local
+mkdir git-localconfig-repo
+cd git-localconfig-repo
+git init
+open folder in vscode editor
+add new file limits-service.properties 
+add content and save and commit
+limits-service.minimum=4
+limits-service.maximum=3000
+
+git add *
+git commit -m "adding limit-service.properties"
+git push

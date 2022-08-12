@@ -1,0 +1,4 @@
+dependency
+web, lombok, devtool, config client, actuator
+
+url : http://localhost:8080/limits
