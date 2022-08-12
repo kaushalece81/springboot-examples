@@ -22,3 +22,13 @@ limits-service.maximum=3000
 git add *
 git commit -m "adding limit-service.properties"
 git push
+
+path   replace backslash with forward slash
+file:///D:/practiceGit/springboot-examples/git-localconfig-repo
+pwd
+file:////d/practiceGit/springboot-examples/git-localconfig-repo
+
+use @EnableConfigServer
+as limits-service.properties in git repo
+url : http://localhost:8888/limit-service/default
+
